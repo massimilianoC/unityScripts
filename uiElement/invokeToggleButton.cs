@@ -1,3 +1,9 @@
+/*
+This script is nice to trigger buttons and toggle from another button/toggle using the inspector Events manger.
+Add this script to an object and add one or more buttons/toggles references to it.
+Add this script to an Event trigger to quickly perform click/invoke on a button o a toggle "remotly".
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,18 +16,6 @@ public class invokeToggleButton : MonoBehaviour
 
     public List<Button> buttons = new List<Button>();
     public List<Toggle> toggles = new List<Toggle>();
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void triggerToggleDefault()
     {
